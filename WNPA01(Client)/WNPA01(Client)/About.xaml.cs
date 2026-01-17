@@ -23,5 +23,15 @@ namespace WNPA01_Client_
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Method to close the About form.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
